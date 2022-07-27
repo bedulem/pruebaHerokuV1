@@ -1,7 +1,7 @@
 import express, { application } from "express";
 // const express = require("express");
 import notes from "./notes.js";
-import { cors } from "cors";
+import cors from "cors";
 
 const app = express();
 
